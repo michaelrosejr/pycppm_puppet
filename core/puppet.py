@@ -25,8 +25,7 @@ def getPuppetDataFromURL(url):
         [list]: Returns a list of dicts of facts stored in Puppet
     """
     headers = {
-        # They key below is used for development. It can be removed.
-        "x-api-key": "PMAK-6063951bfb834d0052b53dca-339f7852e06ed1434a4e8c7cca3ad7d9e4"
+
     }
 
     resp = requests.get(url, headers=headers)
