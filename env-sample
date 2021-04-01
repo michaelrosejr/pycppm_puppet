@@ -1,0 +1,8 @@
+#
+# Rename this file to .env
+#
+cppm_url="https://cppm..."
+cppm_skey=""
+cppm_access_token=""
+puppet_url="https://...."
+puppet_key=""
